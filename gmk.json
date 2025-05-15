@@ -1,0 +1,1408 @@
+{
+  "code": "0",
+  "data": {
+    "guestTitle": "Guest",
+    "bookmarkData": {
+      "bankAccounts": [
+        {
+          "accountNumber": "9816565319",
+          "accountAlias": "1",
+          "accountType": "Super Saving ",
+          "primary": "Y",
+          "currencyCode": "USD",
+          "accountTypeCode": "SA",
+          "accountHolderName": "BAL KRISHNA SAMA",
+          "accountBranch": "Butwal Branch",
+          "branchName": "Butwal Branch",
+          "branchCode": "001",
+          "hasAccountTxn": "N",
+          "txnEnabled": "N",
+          "hasAccountCreditTxn": "Y",
+          "allowOwnAccountFcyDebitTxn": "Y",
+          "isAccountOwner": "Y",
+          "favourite": "Y",
+          "favouriteOrder": "1",
+          "image": "https://shorturl.at/0w3BW"
+        }
+      ],
+      "cardAccounts": [
+        {
+          "accountNumber": "600000000233",
+          "cardExpiryDate": "24/12",
+          "expiryDate": "24/12",
+          "cardHolderName": "NAWAL KISHORE SHAH",
+          "displayCardNumber": "41621XXXX023392",
+          "cardNo": "4162110001023392",
+          "cardNumber": "4162110001023392",
+          "cardType": "Credit Card",
+          "status": "Active",
+          "currencyCode": "N/A",
+          "cardId": "3712099",
+          "favourite": "Y",
+          "favouriteOrder": "2",
+          "image": "https://shorturl.at/0w3BW"
+        }
+      ]
+    },
+    "quickBankingMenus": [
+      {
+        "code": "",
+        "name": "Deposit Rate",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/rates.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 19,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Deposit Rate",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Deposit Rate",
+            "bn": "ব্যাংক লেনদেন"
+          },
+          "description": {
+            "en": "Deposit Rate",
+            "bn": "ব্যাংক লেনদেন"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Bank Transfer",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/70a495d7-fc6b-412a-8567-8d523eb9e287bank_transfer.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 41,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Bank Transfer",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 2,
+        "locale": {
+          "name": {
+            "en": "Bank Transfer",
+            "bn": "ব্যাংক লেনদেন"
+          },
+          "description": {
+            "en": "Bank Transfer",
+            "bn": "ব্যাংক লেনদেন"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Mobile Recharge",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 40,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Mobile Recharge and Datapack",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 3,
+        "locale": {
+          "name": {
+            "en": "Mobile Recharge",
+            "bn": "মোবাইল রিচার্জ"
+          },
+          "description": {
+            "en": "Mobile Recharge and Datapack",
+            "bn": "মোবাইল রিচার্জ"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Pay Order",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 43,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Pay Order",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 5,
+        "locale": {
+          "name": {
+            "en": "Pay Order",
+            "bn": "পে অর্ডার"
+          },
+          "description": {
+            "en": "Pay Order",
+            "bn": "পে অর্ডার"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Positive Pay",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 42,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Positive Pay",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 4,
+        "locale": {
+          "name": {
+            "en": "Positive Pay",
+            "bn": "পজিটিভ পে"
+          },
+          "description": {
+            "en": "Positive Pay",
+            "bn": "পজিটিভ পে"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Forex Exchange",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 44,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Forex Exchange",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 6,
+        "locale": {
+          "name": {
+            "en": "Forex Exchange",
+            "bn": "ফরেক্স এক্সচেঞ্জ"
+          },
+          "description": {
+            "en": "Forex Exchange",
+            "bn": "ফরেক্স এক্সচেঞ্জ"
+          }
+        }
+      }
+    ],
+    "bottomNavMenus": [
+      {
+        "code": "GUEST_MODE_ACCOUNT_HOME",
+        "name": "Home",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/29809033-0e9d-45e5-aded-2243d4b4291dic_home.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "ACCOUNT_BOTTOM",
+        "menuId": 50,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Home",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Home",
+            "bn": "বাড়ি"
+          },
+          "description": {
+            "en": "Home",
+            "bn": "বাড়ি"
+          }
+        }
+      },
+      {
+        "code": "GUEST_MODE_PAY_TRANSFER",
+        "name": "Transfer",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/aec7d72c-9886-422e-80dc-e455633b68a7ic_transfer.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "ACCOUNT_BOTTOM",
+        "menuId": 51,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Transfer",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 2,
+        "locale": {
+          "name": {
+            "en": "Transfer",
+            "bn": "স্থানান্তর"
+          },
+          "description": {
+            "en": "Transfer",
+            "bn": "স্থানান্তর"
+          }
+        }
+      },
+      {
+        "code": "GUEST_MODE_SCAN_QR",
+        "name": "Scan QR",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/aa001556-58f3-4d44-97b2-7628570feb38ic_qr.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "ACCOUNT_BOTTOM",
+        "menuId": 52,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Scan QR",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 3,
+        "locale": {
+          "name": {
+            "en": "Scan QR",
+            "bn": "QR স্ক্যান করুন"
+          },
+          "description": {
+            "en": "Scan QR",
+            "bn": "QR স্ক্যান করুন"
+          }
+        }
+      },
+      {
+        "code": "GUEST_MODE_WEALTH",
+        "name": "Wealth",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/e9cd190e-cf1f-4fa7-9744-bde6642663d4ic_bn_wealth.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "ACCOUNT_BOTTOM",
+        "menuId": 53,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Wealth",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 4,
+        "locale": {
+          "name": {
+            "en": "Wealth",
+            "bn": "সম্পদ"
+          },
+          "description": {
+            "en": "Wealth",
+            "bn": "সম্পদ"
+          }
+        }
+      },
+      {
+        "code": "GUEST_MODE_ACCOUNT_SERVICES",
+        "name": "Services",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/1c49e9ac-e88c-4344-ab3b-477af9d2c602ic_services.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "ACCOUNT_BOTTOM",
+        "menuId": 54,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Services",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 5,
+        "locale": {
+          "name": {
+            "en": "Services",
+            "bn": "সেবা"
+          },
+          "description": {
+            "en": "Services",
+            "bn": "সেবা"
+          }
+        }
+      }
+    ],
+    "favouriteMenus": [
+      {
+        "code": "",
+        "name": "",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 44,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 6,
+        "locale": {
+          "name": {
+            "en": "",
+            "bn": ""
+          },
+          "description": {
+            "en": "",
+            "bn": ""
+          }
+        }
+      }
+    ],
+    "accountList": {
+      "casaAccountList": [
+        {
+          "customerId": "CB1923125",
+          "accountNo": "2300000000001",
+          "accountName": "MD. ASADUL HAQUE SARKER",
+          "accountType": "CASA",
+          "productName": "General Savings Account",
+          "currencyCode": "BDT",
+          "status": "ACTIVE",
+          "backgroundImage": "http://10.13.134.31:9000/bankxp.public.assest/finacle_bg_1.png",
+          "iconImage": "http://10.13.134.31:9000/bankxp.public.assest/city_icon.png"
+        }
+      ],
+      "loanAccountList": [
+        {
+          "customerId": "27601",
+          "accountNo": "****** 1234",
+          "accountName": "MUHAMMAD ABDUL HADI",
+          "accountType": "LAA",
+          "productName": "Personal Loan",
+          "currencyCode": "BDT",
+          "status": "ACTIVATED"
+        }
+      ],
+      "cardsList": [
+        {
+          "customerId": "980230",
+          "cardNo": "****** 1234",
+          "cardName": "MD ASADUL HAQUE",
+          "cardType": "CREDIT",
+          "cardId": "visaDebitNfcOLD",
+          "productName": "Amex Gold Credit Card",
+          "currencyCode": "USD",
+          "image": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/debit_card_bg.png",
+          "status": "GIVEN",
+          "cardBinType": "virtual"
+        }
+      ]
+    },
+    "savingAndInvestmentMenu": 
+      {
+        "code": "",
+        "name": "Saving & Investments",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 88,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "",
+            "name": "Fixed Deposit",
+            "icon": "bank.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "",
+            "menuId": 89,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Get interest upto 9.00%",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Get interest upto 9.00%",
+                "bn": "ভাষা পরিবর্তন করুন"
+              },
+              "description": {
+                "en": "Get interest upto 9.00%",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          }
+        ],
+        "locale": {
+          "name": {
+            "en": "Saving and Investment",
+            "bn": "ভাষা পরিবর্তন করুন"
+          },
+          "description": {
+            "en": "Saving and Investment",
+            "bn": "ভাষা পরিবর্তন করুন"
+          }
+        }
+      },
+    
+    "smartBudgetingMenu": 
+      {
+        "code": "",
+        "name": "Smart Budget",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 88,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "",
+            "name": "Monthly Budgeting",
+            "icon": "bank.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "",
+            "menuId": 89,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Setup your monthly budgets today and smart managing your expenses",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Setup your monthly budgets today and smart managing your expenses",
+                "bn": "ভাষা পরিবর্তন করুন"
+              },
+              "description": {
+                "en": "Setup your monthly budgets today and smart managing your expenses",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          }
+        ],
+        "locale": {
+          "name": {
+            "en": "Monthly Budgeting",
+            "bn": "ভাষা পরিব"
+          }
+        }
+      }
+    ,
+    "citySelfServiceMenu": 
+      {
+        "code": "",
+        "name": "City Self Service",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 77,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "",
+            "name": "Check Book Management",
+            "icon": "bank.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "",
+            "menuId": 89,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Manage payments, issues, etc",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Manage payments, issues, etc",
+                "bn": "ভাষা পরিবর্তন করুন"
+              },
+              "description": {
+                "en": "Manage payments, issues, etc",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          },
+          {
+            "code": "",
+            "name": "International Transaction Management",
+            "icon": "bank.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "",
+            "menuId": 89,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Manage payments, issues, etc",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Manage payments, issues, etc",
+                "bn": "ভাষা পরিবর্তন করুন"
+              },
+              "description": {
+                "en": "Manage payments, issues, etc",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          }
+        ],
+        "locale": {
+          "name": {
+            "en": "City Self Service",
+            "bn": "ভাষা পরিবর্তন করুন"
+          }
+        }
+      }
+    ,
+    "serviceMenu": [
+      {
+        "code": "",
+        "name": "Loan Service",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "PROFILE_MENU",
+        "menuId": 56,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "My Preference",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "CHANGE_LANGUAGE",
+            "name": "Apply for Loan",
+            "icon": "bank.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "PROFILE_MENU",
+            "menuId": 55,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Change Language",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Change Language",
+                "bn": "ভাষা পরিবর্তন করুন"
+              },
+              "description": {
+                "en": "Change Language",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          },
+          {
+            "code": "OPTION",
+            "name": "Option",
+            "icon": "Edit.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "PROFILE_MENU",
+            "menuId": 57,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Option",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Option",
+                "bn": "অপশন"
+              },
+              "description": {
+                "en": "Option",
+                "bn": "অপশন"
+              }
+            }
+          },
+          {
+            "code": "NOTIFICATION_SETTINGS",
+            "name": "Notification Settings",
+            "icon": "bank.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "PROFILE_MENU",
+            "menuId": 58,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Notification Settings",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 3,
+            "locale": {
+              "name": {
+                "en": "Notification Settings",
+                "bn": "বিজ্ঞপ্তি সেটিংস"
+              },
+              "description": {
+                "en": "Notification Settings",
+                "bn": "বিজ্ঞপ্তি সেটিংস"
+              }
+            }
+          }
+        ],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Loan Service",
+            "bn": "আমার পছন্দ"
+          },
+          "description": {
+            "en": "Loan Service",
+            "bn": "আমার পছন্দ"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Citytouch Services",
+        "icon": "",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "LOGIN_MORE_SERVICES",
+        "menuId": 78,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "More Options",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "LOGIN_CHANGE_LANGUAGE",
+            "name": "Change Language",
+            "icon": "",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "LOGIN_MORE_SERVICES",
+            "menuId": 79,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Change Language",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Change Language",
+                "bn": "ভাষা পরি"
+              }
+            }
+          },
+          {
+            "code": "LOGIN_CONTACT_US",
+            "name": "Contact Us",
+            "icon": "",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "LOGIN_MORE_SERVICES",
+            "menuId": 80,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Contact Us",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Contact Us",
+                "bn": "ভাষা পরিবর্ত"
+              }
+            }
+          },
+          {
+            "code": "LOGIN_ATM_BRANCHES_LOCATOR",
+            "name": "ATM, Branch, Merchant Locator",
+            "icon": "",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "LOGIN_MORE_SERVICES",
+            "menuId": 81,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "ATM, Branch, Merchant Locator",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 3,
+            "locale": {
+              "name": {
+                "en": "Atm, Branch, Merchant Locator",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          },
+          {
+            "code": "LOGIN_MORE_PRODUCTS",
+            "name": "More City Bank Products",
+            "icon": "",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "LOGIN_MORE_SERVICES",
+            "menuId": 82,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "More City Bank Products",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 4,
+            "locale": {
+              "name": {
+                "en": "More City Bank Products",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          },
+          {
+            "code": "LOGIN_CONTACT_US",
+            "name": "Contact Us",
+            "icon": "",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "LOGIN_MORE_SERVICES",
+            "menuId": 80,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Contact Us",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Contact Us",
+                "bn": "ভাষা পরিবর্ত"
+              }
+            }
+          },
+          {
+            "code": "LOGIN_MORE_PRODUCTS",
+            "name": "More City Bank Products",
+            "icon": "",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "LOGIN_MORE_SERVICES",
+            "menuId": 82,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "More City Bank Products",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 4,
+            "locale": {
+              "name": {
+                "en": "More City Bank Products",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          }
+        ],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Citytouch Services",
+            "bn": "আরও বিকল্প"
+          },
+          "description": {
+            "en": "Citytouch Services",
+            "bn": "আরও বিকল্প"
+          }
+        }
+      }
+    ],
+    "investmentProductsmenu": 
+        {
+        "code": "",
+        "name": "Investment Products",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "",
+        "menuId": 56,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "locale": {
+          "name": {
+            "en": "Investment Products",
+            "bn": "পে অর্ডার"
+          }
+     
+        },
+        "submenus": [{
+        "code": "FIXED_DEPOSIT",
+        "name": "Fixed Deposit",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/rates.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "INVESTMENT_PRODUCTS",
+        "menuId": 1,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Fixed Deposit",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Fixed Deposit",
+            "bn": "ব্যাংক লেনদেন"
+          },
+          "description": {
+            "en": "Fixed Deposit",
+            "bn": "ব্যাংক লেনদেন"
+          }
+        }
+      },
+      {
+        "code": "DPS_MONTHLY_SAVINGS",
+        "name": "DPS Monthly Savings",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/70a495d7-fc6b-412a-8567-8d523eb9e287bank_transfer.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "INVESTMENT_PRODUCTS",
+        "menuId": 2,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "DPS Monthly Savings",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 2,
+        "locale": {
+          "name": {
+            "en": "DPS Monthly Savings",
+            "bn": "ব্যাংক লেনদেন"
+          },
+          "description": {
+            "en": "DPS Monthly Savings",
+            "bn": "ব্যাংক লেনদেন"
+          }
+        }
+      },
+      {
+        "code": "GOVERNMENT_SECURITIES",
+        "name": "Government Securities",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "INVESTMENT_PRODUCTS",
+        "menuId": 3,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Government Securities",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 3,
+        "locale": {
+          "name": {
+            "en": "Government Securities",
+            "bn": "মোবাইল রিচার্জ"
+          },
+          "description": {
+            "en": "Government Securities",
+            "bn": "মোবাইল রিচার্জ"
+          }
+        }
+      },
+      {
+        "code": "DPS_SAVINGS",
+        "name": "DPS Savings",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "INVESTMENT_PRODUCTS",
+        "menuId": 4,
+        "menuType": "F",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "DPS Savings",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "sortOrder": 5,
+        "locale": {
+          "name": {
+            "en": "DPS Savings",
+            "bn": "পে অর্ডার"
+          },
+          "description": {
+            "en": "DPS Savings",
+            "bn": "পে অর্ডার"
+          }
+        }
+      }] }
+      
+      
+    ,
+    "payAndTransferMenu": [
+      {
+        "code": "PAYMENT_MENU",
+        "name": "Payments",
+        "icon": "bank.png",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+        "menuId": 56,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Payments",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "CARD_PAYMENT",
+            "name": "Card Payment",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 5,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Card Payment",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Card Payment",
+                "bn": "ভাষা পরিবর্তন করুন"
+              },
+              "description": {
+                "en": "Card Payment",
+                "bn": "ভাষা পরিবর্তন করুন"
+              }
+            }
+          },
+          {
+            "code": "MOBILE_TOPUP",
+            "name": "Mobile Recharge",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 6,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Mobile Recharge",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Mobile Recharge",
+                "bn": "অপশন"
+              },
+              "description": {
+                "en": "Mobile Recharge",
+                "bn": "অপশন"
+              }
+            }
+          },
+          {
+            "code": "DONATION",
+            "name": "Donation",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 7,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Donation",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Donation",
+                "bn": "অপশন"
+              },
+              "description": {
+                "en": "Donation",
+                "bn": "অপশন"
+              }
+            }
+          },
+          {
+            "code": "CLUB_BILL",
+            "name": "Club Bill",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 8,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Club Bill",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Club Bill",
+                "bn": "অপশন"
+              },
+              "description": {
+                "en": "Club Bill",
+                "bn": "অপশন"
+              }
+            }
+          },
+          {
+            "code": "GOVERNMENT_PAYMENT",
+            "name": "Government Payment",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 10,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Government Payment",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Government Payment",
+                "bn": "অপশন"
+              },
+              "description": {
+                "en": "Government Payment",
+                "bn": "অপশন"
+              }
+            }
+          },
+          {
+            "code": "VISA_PAYMENT",
+            "name": "Visa payment",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 9,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Visa payment",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 56,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Visa payment",
+                "bn": "অপশন"
+              },
+              "description": {
+                "en": "Visa payment",
+                "bn": "অপশন"
+              }
+            }
+          }
+        ],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Payments",
+            "bn": "আমার পছন্দ"
+          },
+          "description": {
+            "en": "Payments",
+            "bn": "আমার পছন্দ"
+          }
+        }
+      },
+      {
+        "code": "",
+        "name": "Transfer",
+        "icon": "",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+        "menuId": 11,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Transfer",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "Bank_Transfer",
+            "name": "Bank Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 12,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Bank Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Bank Transfer",
+                "bn": "আরও বিকল্প"
+              }
+            }
+          },
+          {
+            "code": "CASH_BY_CODE",
+            "name": "Cash by code",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 13,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Cash by Code",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Cash by code",
+                "bn": "আরও বিকল্প"
+              }
+            }
+          },
+          {
+            "code": "MOBILE_WALLET_TRANSFER",
+            "name": "Mobile Wallet Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 14,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Mobile Wallet Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Mobile Wallet Transfer",
+                "bn": "আরও বিকল্প"
+              }
+            }
+          },
+          {
+            "code": "QR_TRANSFER",
+            "name": "QR Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 15,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "QR Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "QR Transfer",
+                "bn": "আরও বিকল্প"
+              }
+            }
+          },
+          {
+            "code": "BINIMOY",
+            "name": "Binimoy",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 16,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Binimay",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Binimoy",
+                "bn": "আরও"
+              }
+            }
+          },
+          {
+            "code": "EMAIL_TRANSFER",
+            "name": "Email Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 17,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Email Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Email Transfer",
+                "bn": "আরও বিকল্প"
+              }
+            }
+          }
+        ],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Transfer",
+            "bn": "আরও বিকল্প"
+          },
+          "description": {
+            "en": "Transfer",
+            "bn": "আরও বিকল্প"
+          }
+        }
+      }
+    ]
+  }
+}
