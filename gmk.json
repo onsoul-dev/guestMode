@@ -65,11 +65,11 @@
         "locale": {
           "name": {
             "en": "Deposit Rate",
-            "bn": "ব্যাংক লেনদেন"
+            "bn": "জমা সুদের হার"
           },
           "description": {
             "en": "Deposit Rate",
-            "bn": "ব্যাংক লেনদেন"
+            "bn": "জমা সুদের হার"
           }
         }
       },
@@ -92,11 +92,11 @@
         "locale": {
           "name": {
             "en": "Bank Transfer",
-            "bn": "ব্যাংক লেনদেন"
+            "bn": "ব্যাংক স্থানান্তর"
           },
           "description": {
             "en": "Bank Transfer",
-            "bn": "ব্যাংক লেনদেন"
+            "bn": "ব্যাংক স্থানান্তরন"
           }
         }
       },
@@ -200,11 +200,11 @@
         "locale": {
           "name": {
             "en": "Forex Exchange",
-            "bn": "ফরেক্স এক্সচেঞ্জ"
+            "bn": "ফরেক্স বিপণন"
           },
           "description": {
             "en": "Forex Exchange",
-            "bn": "ফরেক্স এক্সচেঞ্জ"
+            "bn": "ফরেক্স বিপণন"
           }
         }
       }
@@ -256,11 +256,11 @@
         "locale": {
           "name": {
             "en": "Transfer",
-            "bn": "স্থানান্তর"
+            "bn": "ট্রান্সফার"
           },
           "description": {
             "en": "Transfer",
-            "bn": "স্থানান্তর"
+            "bn": "ট্রান্সফার"
           }
         }
       },
@@ -451,24 +451,20 @@
             "sortOrder": 1,
             "locale": {
               "name": {
-                "en": "Get interest upto 9.00%",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "en": "Fixed Deposit",
+                "bn": "অবস্থানিত আমানত"
               },
               "description": {
                 "en": "Get interest upto 9.00%",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "৯.০০% পর্যন্ত সুদ পান"
               }
             }
           }
         ],
         "locale": {
           "name": {
-            "en": "Saving and Investment",
-            "bn": "ভাষা পরিবর্তন করুন"
-          },
-          "description": {
-            "en": "Saving and Investment",
-            "bn": "ভাষা পরিবর্তন করুন"
+            "en": "Saving & Investment",
+            "bn": "সঞ্চয় ও বিনিয়োগ"
           }
         }
       },
@@ -509,20 +505,20 @@
             "sortOrder": 1,
             "locale": {
               "name": {
-                "en": "Setup your monthly budgets today and smart managing your expenses",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "en": "Monthly Budgeting",
+                "bn": "মাসিক বাজেটিং"
               },
               "description": {
                 "en": "Setup your monthly budgets today and smart managing your expenses",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "আজই আপনার মাসিক বাজেট সেট আপ করুন এবং আপনার ব্যয়ের স্মার্ট পরিচালনা করুন"
               }
             }
           }
         ],
         "locale": {
           "name": {
-            "en": "Monthly Budgeting",
-            "bn": "ভাষা পরিব"
+            "en": "Smart Budget",
+            "bn": "স্মার্ট বাজেট"
           }
         }
       }
@@ -591,12 +587,12 @@
             "sortOrder": 1,
             "locale": {
               "name": {
-                "en": "Manage payments, issues, etc",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "en": "International Transaction Management",
+                "bn": "আন্তর্জাতিক লেনদেন ব্যবস্থাপনা"
               },
               "description": {
                 "en": "Manage payments, issues, etc",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "পেমেন্ট, সমস্যা ইত্যাদি পরিচালনা করুন"
               }
             }
           }
@@ -604,7 +600,7 @@
         "locale": {
           "name": {
             "en": "City Self Service",
-            "bn": "ভাষা পরিবর্তন করুন"
+            "bn": "সিটি সেলফ সার্ভিস"
           }
         }
       }
@@ -647,10 +643,6 @@
               "name": {
                 "en": "Change Language",
                 "bn": "ভাষা পরিবর্তন করুন"
-              },
-              "description": {
-                "en": "Change Language",
-                "bn": "ভাষা পরিবর্তন করুন"
               }
             }
           },
@@ -665,7 +657,7 @@
             "menuType": "D",
             "navLink": "/",
             "featureCode": "D",
-            "description": "Option",
+            "description": "",
             "instruction": "",
             "iosVersion": "1",
             "androidVersion": "1",
@@ -673,10 +665,6 @@
             "sortOrder": 2,
             "locale": {
               "name": {
-                "en": "Option",
-                "bn": "অপশন"
-              },
-              "description": {
                 "en": "Option",
                 "bn": "অপশন"
               }
@@ -693,7 +681,7 @@
             "menuType": "D",
             "navLink": "/",
             "featureCode": "D",
-            "description": "Notification Settings",
+            "description": "",
             "instruction": "",
             "iosVersion": "1",
             "androidVersion": "1",
@@ -702,11 +690,7 @@
             "locale": {
               "name": {
                 "en": "Notification Settings",
-                "bn": "বিজ্ঞপ্তি সেটিংস"
-              },
-              "description": {
-                "en": "Notification Settings",
-                "bn": "বিজ্ঞপ্তি সেটিংস"
+                "bn": "নোটিফিকেশন সেটিংস"
               }
             }
           }
@@ -715,11 +699,7 @@
         "locale": {
           "name": {
             "en": "Loan Service",
-            "bn": "আমার পছন্দ"
-          },
-          "description": {
-            "en": "Loan Service",
-            "bn": "আমার পছন্দ"
+            "bn": "ঋণ সেবা"
           }
         }
       },
@@ -759,7 +739,7 @@
             "locale": {
               "name": {
                 "en": "Change Language",
-                "bn": "ভাষা পরি"
+                "bn": "ভাষা পরিবর্তন করুন"
               }
             }
           },
@@ -783,7 +763,7 @@
             "locale": {
               "name": {
                 "en": "Contact Us",
-                "bn": "ভাষা পরিবর্ত"
+                "bn": "যোগাযোগ করুন"
               }
             }
           },
@@ -807,7 +787,7 @@
             "locale": {
               "name": {
                 "en": "Atm, Branch, Merchant Locator",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "এটিএম, শাখা, বিক্রেতা অবস্থান নির্ধারক"
               }
             }
           },
@@ -831,7 +811,7 @@
             "locale": {
               "name": {
                 "en": "More City Bank Products",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "আরও সিটি ব্যাংক পণ্য"
               }
             }
           },
@@ -855,7 +835,7 @@
             "locale": {
               "name": {
                 "en": "Contact Us",
-                "bn": "ভাষা পরিবর্ত"
+                "bn": "যোগাযোগ করুন"
               }
             }
           },
@@ -879,7 +859,7 @@
             "locale": {
               "name": {
                 "en": "More City Bank Products",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "আরও সিটি ব্যাংক পণ্য"
               }
             }
           }
@@ -888,12 +868,9 @@
         "locale": {
           "name": {
             "en": "Citytouch Services",
-            "bn": "আরও বিকল্প"
-          },
-          "description": {
-            "en": "Citytouch Services",
-            "bn": "আরও বিকল্প"
+            "bn": "সিটিটাচ সেবাসমূহ"
           }
+        
         }
       }
     ],
@@ -916,7 +893,7 @@
         "locale": {
           "name": {
             "en": "Investment Products",
-            "bn": "পে অর্ডার"
+            "bn": "নিবন্ধন পণ্য"
           }
      
         },
@@ -940,11 +917,7 @@
         "locale": {
           "name": {
             "en": "Fixed Deposit",
-            "bn": "ব্যাংক লেনদেন"
-          },
-          "description": {
-            "en": "Fixed Deposit",
-            "bn": "ব্যাংক লেনদেন"
+            "bn": "অবস্থানিত আমানত"
           }
         }
       },
@@ -967,11 +940,7 @@
         "locale": {
           "name": {
             "en": "DPS Monthly Savings",
-            "bn": "ব্যাংক লেনদেন"
-          },
-          "description": {
-            "en": "DPS Monthly Savings",
-            "bn": "ব্যাংক লেনদেন"
+            "bn": "বডিপিএস মাসিক সঞ্চয়"
           }
         }
       },
@@ -994,11 +963,7 @@
         "locale": {
           "name": {
             "en": "Government Securities",
-            "bn": "মোবাইল রিচার্জ"
-          },
-          "description": {
-            "en": "Government Securities",
-            "bn": "মোবাইল রিচার্জ"
+            "bn": "সরকারি সম্পদ"
           }
         }
       },
@@ -1021,17 +986,10 @@
         "locale": {
           "name": {
             "en": "DPS Savings",
-            "bn": "পে অর্ডার"
-          },
-          "description": {
-            "en": "DPS Savings",
-            "bn": "পে অর্ডার"
+            "bn": "ডিপিএস সেভিংস"
           }
         }
-      }] }
-      
-      
-    ,
+      }] },
     "payAndTransferMenu": [
       {
         "code": "PAYMENT_MENU",
@@ -1069,11 +1027,7 @@
             "locale": {
               "name": {
                 "en": "Card Payment",
-                "bn": "ভাষা পরিবর্তন করুন"
-              },
-              "description": {
-                "en": "Card Payment",
-                "bn": "ভাষা পরিবর্তন করুন"
+                "bn": "কার্ড পেমেন্ট"
               }
             }
           },
@@ -1097,11 +1051,7 @@
             "locale": {
               "name": {
                 "en": "Mobile Recharge",
-                "bn": "অপশন"
-              },
-              "description": {
-                "en": "Mobile Recharge",
-                "bn": "অপশন"
+                "bn": "মোবাইল রিচার্জ"
               }
             }
           },
@@ -1125,11 +1075,7 @@
             "locale": {
               "name": {
                 "en": "Donation",
-                "bn": "অপশন"
-              },
-              "description": {
-                "en": "Donation",
-                "bn": "অপশন"
+                "bn": "দান"
               }
             }
           },
@@ -1153,11 +1099,7 @@
             "locale": {
               "name": {
                 "en": "Club Bill",
-                "bn": "অপশন"
-              },
-              "description": {
-                "en": "Club Bill",
-                "bn": "অপশন"
+                "bn": "ক্লাব বিল"
               }
             }
           },
@@ -1181,11 +1123,7 @@
             "locale": {
               "name": {
                 "en": "Government Payment",
-                "bn": "অপশন"
-              },
-              "description": {
-                "en": "Government Payment",
-                "bn": "অপশন"
+                "bn": "সরকারি পেমেন্ট"
               }
             }
           },
@@ -1209,11 +1147,7 @@
             "locale": {
               "name": {
                 "en": "Visa payment",
-                "bn": "অপশন"
-              },
-              "description": {
-                "en": "Visa payment",
-                "bn": "অপশন"
+                "bn": "ভিসা পেমেন্ট"
               }
             }
           }
@@ -1222,11 +1156,7 @@
         "locale": {
           "name": {
             "en": "Payments",
-            "bn": "আমার পছন্দ"
-          },
-          "description": {
-            "en": "Payments",
-            "bn": "আমার পছন্দ"
+            "bn": "পেমেন্টস"
           }
         }
       },
@@ -1266,7 +1196,7 @@
             "locale": {
               "name": {
                 "en": "Bank Transfer",
-                "bn": "আরও বিকল্প"
+                "bn": "ব্যাংক ট্রান্সফার"
               }
             }
           },
@@ -1290,7 +1220,7 @@
             "locale": {
               "name": {
                 "en": "Cash by code",
-                "bn": "আরও বিকল্প"
+                "bn": "কোড দ্বারা নগদ"
               }
             }
           },
@@ -1314,7 +1244,7 @@
             "locale": {
               "name": {
                 "en": "Mobile Wallet Transfer",
-                "bn": "আরও বিকল্প"
+                "bn": "মোবাইল ওয়ালেট ট্রান্সফা"
               }
             }
           },
@@ -1338,7 +1268,7 @@
             "locale": {
               "name": {
                 "en": "QR Transfer",
-                "bn": "আরও বিকল্প"
+                "bn": "QR অতিস্বল্প"
               }
             }
           },
@@ -1362,7 +1292,7 @@
             "locale": {
               "name": {
                 "en": "Binimoy",
-                "bn": "আরও"
+                "bn": "বিনিময়"
               }
             }
           },
@@ -1386,7 +1316,7 @@
             "locale": {
               "name": {
                 "en": "Email Transfer",
-                "bn": "আরও বিকল্প"
+                "bn": "ইমেইল স্থানান্তর"
               }
             }
           }
@@ -1395,11 +1325,7 @@
         "locale": {
           "name": {
             "en": "Transfer",
-            "bn": "আরও বিকল্প"
-          },
-          "description": {
-            "en": "Transfer",
-            "bn": "আরও বিকল্প"
+            "bn": "স্থানান্তর"
           }
         }
       }
