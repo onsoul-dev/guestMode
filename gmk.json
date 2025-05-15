@@ -435,7 +435,7 @@
           {
             "code": "",
             "name": "Fixed Deposit",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/rates.png",
+            "icon": "",
             "assigned": true,
             "tint": true,
             "menuGroup": "",
