@@ -419,7 +419,7 @@
       {
         "code": "",
         "name": "Saving & Investments",
-        "icon": "bank.png",
+        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/rates.png",
         "assigned": true,
         "tint": true,
         "menuGroup": "",
