@@ -255,12 +255,12 @@
         "sortOrder": 2,
         "locale": {
           "name": {
-            "en": "Transfer",
-            "bn": "ট্রান্সফার"
+            "en": "Pay & Transfer",
+            "bn": "বেতন এবং স্থানান্তর"
           },
           "description": {
-            "en": "Transfer",
-            "bn": "ট্রান্সফার"
+            "en": "Pay & Transfer",
+            "bn": "বেতন এবং স্থানান্তর"
           }
         }
       },
