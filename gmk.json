@@ -608,7 +608,7 @@
     "serviceMenu": [
       {
         "code": "",
-        "name": "Loan Service",
+        "name": "Loan Services",
         "icon": "bank.png",
         "assigned": true,
         "tint": true,
