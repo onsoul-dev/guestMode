@@ -415,196 +415,190 @@
         }
       ]
     },
-    "savingAndInvestmentMenu": 
-      {
-        "code": "",
-        "name": "Saving & Investments",
-        "icon": "",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "",
-        "menuId": 88,
-        "menuType": "D",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "submenus": [
-          {
-            "code": "",
-            "name": "Fixed Deposit",
-            "icon": "",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "",
-            "menuId": 89,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Get interest upto 9.00%",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 56,
-            "sortOrder": 1,
-            "locale": {
-              "name": {
-                "en": "Fixed Deposit",
-                "bn": "অবস্থানিত আমানত"
-              },
-              "description": {
-                "en": "Get interest upto 9.00%",
-                "bn": "৯.০০% পর্যন্ত সুদ পান"
-              }
+    "savingAndInvestmentMenu": {
+      "code": "",
+      "name": "Saving & Investments",
+      "icon": "",
+      "assigned": true,
+      "tint": true,
+      "menuGroup": "",
+      "menuId": 88,
+      "menuType": "D",
+      "navLink": "/",
+      "featureCode": "D",
+      "description": "",
+      "instruction": "",
+      "iosVersion": "1",
+      "androidVersion": "1",
+      "submenus": [
+        {
+          "code": "",
+          "name": "Fixed Deposit",
+          "icon": "",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "",
+          "menuId": 89,
+          "menuType": "D",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "Get interest upto 9.00%",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "parentMenuId": 56,
+          "sortOrder": 1,
+          "locale": {
+            "name": {
+              "en": "Fixed Deposit",
+              "bn": "অবস্থানিত আমানত"
+            },
+            "description": {
+              "en": "Get interest upto 9.00%",
+              "bn": "৯.০০% পর্যন্ত সুদ পান"
             }
-          }
-        ],
-        "locale": {
-          "name": {
-            "en": "Saving & Investments",
-            "bn": "সঞ্চয় ও বিনিয়োগ"
           }
         }
-      },
-    
-    "smartBudgetingMenu": 
-      {
-        "code": "",
-        "name": "Smart Budget",
-        "icon": "bank.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "",
-        "menuId": 88,
-        "menuType": "D",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "submenus": [
-          {
-            "code": "",
-            "name": "Monthly Budgeting",
-            "icon": "bank.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "",
-            "menuId": 89,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Setup your monthly budgets today and smart managing your expenses",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 56,
-            "sortOrder": 1,
-            "locale": {
-              "name": {
-                "en": "Monthly Budgeting",
-                "bn": "মাসিক বাজেটিং"
-              },
-              "description": {
-                "en": "Setup your monthly budgets today and smart managing your expenses",
-                "bn": "আজই আপনার মাসিক বাজেট সেট আপ করুন এবং আপনার ব্যয়ের স্মার্ট পরিচালনা করুন"
-              }
-            }
-          }
-        ],
-        "locale": {
-          "name": {
-            "en": "Smart Budget",
-            "bn": "স্মার্ট বাজেট"
-          }
+      ],
+      "locale": {
+        "name": {
+          "en": "Saving & Investments",
+          "bn": "সঞ্চয় ও বিনিয়োগ"
         }
       }
-    ,
-    "citySelfServiceMenu": 
-      {
-        "code": "",
-        "name": "City Self Service",
-        "icon": "bank.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "",
-        "menuId": 77,
-        "menuType": "D",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "submenus": [
-          {
-            "code": "",
-            "name": "Check Book Management",
-            "icon": "bank.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "",
-            "menuId": 89,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Manage payments, issues, etc",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 56,
-            "sortOrder": 1,
-            "locale": {
-              "name": {
-                "en": "Check Book Management",
-                "bn": "বই ব্যবস্থাপনা পরীক্ষা করু"
-              },
-              "description": {
-                "en": "Manage payments, issues, etc",
-                "bn": "ভাষা পরিবর্তন করুন"
-              }
+    },
+    "smartBudgetingMenu": {
+      "code": "",
+      "name": "Smart Budget",
+      "icon": "bank.png",
+      "assigned": true,
+      "tint": true,
+      "menuGroup": "",
+      "menuId": 88,
+      "menuType": "D",
+      "navLink": "/",
+      "featureCode": "D",
+      "description": "",
+      "instruction": "",
+      "iosVersion": "1",
+      "androidVersion": "1",
+      "submenus": [
+        {
+          "code": "",
+          "name": "Monthly Budgeting",
+          "icon": "bank.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "",
+          "menuId": 89,
+          "menuType": "D",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "Setup your monthly budgets today and smart managing your expenses",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "parentMenuId": 56,
+          "sortOrder": 1,
+          "locale": {
+            "name": {
+              "en": "Monthly Budgeting",
+              "bn": "মাসিক বাজেটিং"
+            },
+            "description": {
+              "en": "Setup your monthly budgets today and smart managing your expenses",
+              "bn": "আজই আপনার মাসিক বাজেট সেট আপ করুন এবং আপনার ব্যয়ের স্মার্ট পরিচালনা করুন"
             }
-          },
-          {
-            "code": "",
-            "name": "International Transaction Management",
-            "icon": "bank.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "",
-            "menuId": 89,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Manage payments, issues, etc",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 56,
-            "sortOrder": 1,
-            "locale": {
-              "name": {
-                "en": "International Transaction Management",
-                "bn": "আন্তর্জাতিক লেনদেন ব্যবস্থাপনা"
-              },
-              "description": {
-                "en": "Manage payments, issues, etc",
-                "bn": "পেমেন্ট, সমস্যা ইত্যাদি পরিচালনা করুন"
-              }
-            }
-          }
-        ],
-        "locale": {
-          "name": {
-            "en": "City Self Service",
-            "bn": "সিটি সেলফ সার্ভিস"
           }
         }
+      ],
+      "locale": {
+        "name": {
+          "en": "Smart Budget",
+          "bn": "স্মার্ট বাজেট"
+        }
       }
-    ,
+    },
+    "citySelfServiceMenu": {
+      "code": "",
+      "name": "City Self Service",
+      "icon": "bank.png",
+      "assigned": true,
+      "tint": true,
+      "menuGroup": "",
+      "menuId": 77,
+      "menuType": "D",
+      "navLink": "/",
+      "featureCode": "D",
+      "description": "",
+      "instruction": "",
+      "iosVersion": "1",
+      "androidVersion": "1",
+      "submenus": [
+        {
+          "code": "",
+          "name": "Check Book Management",
+          "icon": "bank.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "",
+          "menuId": 89,
+          "menuType": "D",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "Manage payments, issues, etc",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "parentMenuId": 56,
+          "sortOrder": 1,
+          "locale": {
+            "name": {
+              "en": "Check Book Management",
+              "bn": "বই ব্যবস্থাপনা পরীক্ষা করু"
+            },
+            "description": {
+              "en": "Manage payments, issues, etc",
+              "bn": "ভাষা পরিবর্তন করুন"
+            }
+          }
+        },
+        {
+          "code": "",
+          "name": "International Transaction Management",
+          "icon": "bank.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "",
+          "menuId": 89,
+          "menuType": "D",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "Manage payments, issues, etc",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "parentMenuId": 56,
+          "sortOrder": 1,
+          "locale": {
+            "name": {
+              "en": "International Transaction Management",
+              "bn": "আন্তর্জাতিক লেনদেন ব্যবস্থাপনা"
+            },
+            "description": {
+              "en": "Manage payments, issues, etc",
+              "bn": "পেমেন্ট, সমস্যা ইত্যাদি পরিচালনা করুন"
+            }
+          }
+        }
+      ],
+      "locale": {
+        "name": {
+          "en": "City Self Service",
+          "bn": "সিটি সেলফ সার্ভিস"
+        }
+      }
+    },
     "serviceMenu": [
       {
         "code": "",
@@ -870,128 +864,127 @@
             "en": "Citytouch Services",
             "bn": "সিটিটাচ সেবাসমূহ"
           }
-        
         }
       }
     ],
-    "investmentProductsmenu": 
+    "investmentProductsmenu": {
+      "code": "",
+      "name": "Investment Products",
+      "icon": "bank.png",
+      "assigned": true,
+      "tint": true,
+      "menuGroup": "",
+      "menuId": 56,
+      "menuType": "D",
+      "navLink": "/",
+      "featureCode": "D",
+      "description": "",
+      "instruction": "",
+      "iosVersion": "1",
+      "androidVersion": "1",
+      "locale": {
+        "name": {
+          "en": "Investment Products",
+          "bn": "নিবন্ধন পণ্য"
+        }
+      },
+      "submenus": [
         {
-        "code": "",
-        "name": "Investment Products",
-        "icon": "bank.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "",
-        "menuId": 56,
-        "menuType": "D",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "locale": {
-          "name": {
-            "en": "Investment Products",
-            "bn": "নিবন্ধন পণ্য"
+          "code": "FIXED_DEPOSIT",
+          "name": "Fixed Deposit",
+          "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/rates.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "INVESTMENT_PRODUCTS",
+          "menuId": 1,
+          "menuType": "D",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "Fixed Deposit",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "submenus": [],
+          "sortOrder": 1,
+          "locale": {
+            "name": {
+              "en": "Fixed Deposit",
+              "bn": "অবস্থানিত আমানত"
+            }
           }
-     
         },
-        "submenus": [{
-        "code": "FIXED_DEPOSIT",
-        "name": "Fixed Deposit",
-        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/rates.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "INVESTMENT_PRODUCTS",
-        "menuId": 1,
-        "menuType": "D",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "Fixed Deposit",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "submenus": [],
-        "sortOrder": 1,
-        "locale": {
-          "name": {
-            "en": "Fixed Deposit",
-            "bn": "অবস্থানিত আমানত"
+        {
+          "code": "DPS_MONTHLY_SAVINGS",
+          "name": "DPS Monthly Savings",
+          "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/70a495d7-fc6b-412a-8567-8d523eb9e287bank_transfer.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "INVESTMENT_PRODUCTS",
+          "menuId": 2,
+          "menuType": "F",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "DPS Monthly Savings",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "sortOrder": 2,
+          "locale": {
+            "name": {
+              "en": "DPS Monthly Savings",
+              "bn": "বডিপিএস মাসিক সঞ্চয়"
+            }
+          }
+        },
+        {
+          "code": "GOVERNMENT_SECURITIES",
+          "name": "Government Securities",
+          "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "INVESTMENT_PRODUCTS",
+          "menuId": 3,
+          "menuType": "F",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "Government Securities",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "sortOrder": 3,
+          "locale": {
+            "name": {
+              "en": "Government Securities",
+              "bn": "সরকারি সম্পদ"
+            }
+          }
+        },
+        {
+          "code": "DPS_SAVINGS",
+          "name": "DPS Savings",
+          "icon": "bank.png",
+          "assigned": true,
+          "tint": true,
+          "menuGroup": "INVESTMENT_PRODUCTS",
+          "menuId": 4,
+          "menuType": "F",
+          "navLink": "/",
+          "featureCode": "D",
+          "description": "DPS Savings",
+          "instruction": "",
+          "iosVersion": "1",
+          "androidVersion": "1",
+          "sortOrder": 5,
+          "locale": {
+            "name": {
+              "en": "DPS Savings",
+              "bn": "ডিপিএস সেভিংস"
+            }
           }
         }
-      },
-      {
-        "code": "DPS_MONTHLY_SAVINGS",
-        "name": "DPS Monthly Savings",
-        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/70a495d7-fc6b-412a-8567-8d523eb9e287bank_transfer.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "INVESTMENT_PRODUCTS",
-        "menuId": 2,
-        "menuType": "F",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "DPS Monthly Savings",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "sortOrder": 2,
-        "locale": {
-          "name": {
-            "en": "DPS Monthly Savings",
-            "bn": "বডিপিএস মাসিক সঞ্চয়"
-          }
-        }
-      },
-      {
-        "code": "GOVERNMENT_SECURITIES",
-        "name": "Government Securities",
-        "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "INVESTMENT_PRODUCTS",
-        "menuId": 3,
-        "menuType": "F",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "Government Securities",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "sortOrder": 3,
-        "locale": {
-          "name": {
-            "en": "Government Securities",
-            "bn": "সরকারি সম্পদ"
-          }
-        }
-      },
-      {
-        "code": "DPS_SAVINGS",
-        "name": "DPS Savings",
-        "icon": "bank.png",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "INVESTMENT_PRODUCTS",
-        "menuId": 4,
-        "menuType": "F",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "DPS Savings",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "sortOrder": 5,
-        "locale": {
-          "name": {
-            "en": "DPS Savings",
-            "bn": "ডিপিএস সেভিংস"
-          }
-        }
-      }] },
+      ]
+    },
     "payAndTransferMenu": [
-      
       {
         "code": "",
         "name": "Transfer",
@@ -1151,8 +1144,17 @@
                 "bn": "ইমেইল স্থানান্তর"
               }
             }
-          },
-          {
+          }
+        ],
+        "sortOrder": 1,
+        "locale": {
+          "name": {
+            "en": "Transfer",
+            "bn": "স্থানান্তর"
+          }
+        }
+      },
+      {
         "code": "PAYMENT_MENU",
         "name": "Payments",
         "icon": "bank.png",
@@ -1318,15 +1320,6 @@
           "name": {
             "en": "Payments",
             "bn": "পেমেন্টস"
-          }
-        }
-      }
-        ],
-        "sortOrder": 1,
-        "locale": {
-          "name": {
-            "en": "Transfer",
-            "bn": "স্থানান্তর"
           }
         }
       }
