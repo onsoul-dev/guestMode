@@ -991,7 +991,168 @@
         }
       }] },
     "payAndTransferMenu": [
+      
       {
+        "code": "",
+        "name": "Transfer",
+        "icon": "",
+        "assigned": true,
+        "tint": true,
+        "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+        "menuId": 11,
+        "menuType": "D",
+        "navLink": "/",
+        "featureCode": "D",
+        "description": "Transfer",
+        "instruction": "",
+        "iosVersion": "1",
+        "androidVersion": "1",
+        "submenus": [
+          {
+            "code": "Bank_Transfer",
+            "name": "Bank Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 12,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Bank Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 1,
+            "locale": {
+              "name": {
+                "en": "Bank Transfer",
+                "bn": "ব্যাংক ট্রান্সফার"
+              }
+            }
+          },
+          {
+            "code": "CASH_BY_CODE",
+            "name": "Cash by code",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 13,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Cash by Code",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Cash by code",
+                "bn": "কোড দ্বারা নগদ"
+              }
+            }
+          },
+          {
+            "code": "MOBILE_WALLET_TRANSFER",
+            "name": "Mobile Wallet Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 14,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Mobile Wallet Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Mobile Wallet Transfer",
+                "bn": "মোবাইল ওয়ালেট ট্রান্সফা"
+              }
+            }
+          },
+          {
+            "code": "QR_TRANSFER",
+            "name": "QR Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 15,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "QR Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "QR Transfer",
+                "bn": "QR অতিস্বল্প"
+              }
+            }
+          },
+          {
+            "code": "BINIMOY",
+            "name": "Binimoy",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 16,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Binimay",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Binimoy",
+                "bn": "বিনিময়"
+              }
+            }
+          },
+          {
+            "code": "EMAIL_TRANSFER",
+            "name": "Email Transfer",
+            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
+            "assigned": true,
+            "tint": true,
+            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
+            "menuId": 17,
+            "menuType": "D",
+            "navLink": "/",
+            "featureCode": "D",
+            "description": "Email Transfer",
+            "instruction": "",
+            "iosVersion": "1",
+            "androidVersion": "1",
+            "parentMenuId": 78,
+            "sortOrder": 2,
+            "locale": {
+              "name": {
+                "en": "Email Transfer",
+                "bn": "ইমেইল স্থানান্তর"
+              }
+            }
+          },
+          {
         "code": "PAYMENT_MENU",
         "name": "Payments",
         "icon": "bank.png",
@@ -1159,167 +1320,7 @@
             "bn": "পেমেন্টস"
           }
         }
-      },
-      {
-        "code": "",
-        "name": "Transfer",
-        "icon": "",
-        "assigned": true,
-        "tint": true,
-        "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-        "menuId": 11,
-        "menuType": "D",
-        "navLink": "/",
-        "featureCode": "D",
-        "description": "Transfer",
-        "instruction": "",
-        "iosVersion": "1",
-        "androidVersion": "1",
-        "submenus": [
-          {
-            "code": "Bank_Transfer",
-            "name": "Bank Transfer",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-            "menuId": 12,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Bank Transfer",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 78,
-            "sortOrder": 1,
-            "locale": {
-              "name": {
-                "en": "Bank Transfer",
-                "bn": "ব্যাংক ট্রান্সফার"
-              }
-            }
-          },
-          {
-            "code": "CASH_BY_CODE",
-            "name": "Cash by code",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-            "menuId": 13,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Cash by Code",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 78,
-            "sortOrder": 2,
-            "locale": {
-              "name": {
-                "en": "Cash by code",
-                "bn": "কোড দ্বারা নগদ"
-              }
-            }
-          },
-          {
-            "code": "MOBILE_WALLET_TRANSFER",
-            "name": "Mobile Wallet Transfer",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-            "menuId": 14,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Mobile Wallet Transfer",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 78,
-            "sortOrder": 2,
-            "locale": {
-              "name": {
-                "en": "Mobile Wallet Transfer",
-                "bn": "মোবাইল ওয়ালেট ট্রান্সফা"
-              }
-            }
-          },
-          {
-            "code": "QR_TRANSFER",
-            "name": "QR Transfer",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-            "menuId": 15,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "QR Transfer",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 78,
-            "sortOrder": 2,
-            "locale": {
-              "name": {
-                "en": "QR Transfer",
-                "bn": "QR অতিস্বল্প"
-              }
-            }
-          },
-          {
-            "code": "BINIMOY",
-            "name": "Binimoy",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-            "menuId": 16,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Binimay",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 78,
-            "sortOrder": 2,
-            "locale": {
-              "name": {
-                "en": "Binimoy",
-                "bn": "বিনিময়"
-              }
-            }
-          },
-          {
-            "code": "EMAIL_TRANSFER",
-            "name": "Email Transfer",
-            "icon": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/fe537313-c50a-4699-8d8b-ff5c2158a307wallet.png",
-            "assigned": true,
-            "tint": true,
-            "menuGroup": "GUEST_MODE_PAY_TRANSFER",
-            "menuId": 17,
-            "menuType": "D",
-            "navLink": "/",
-            "featureCode": "D",
-            "description": "Email Transfer",
-            "instruction": "",
-            "iosVersion": "1",
-            "androidVersion": "1",
-            "parentMenuId": 78,
-            "sortOrder": 2,
-            "locale": {
-              "name": {
-                "en": "Email Transfer",
-                "bn": "ইমেইল স্থানান্তর"
-              }
-            }
-          }
+      }
         ],
         "sortOrder": 1,
         "locale": {
