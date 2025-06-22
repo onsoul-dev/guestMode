@@ -397,7 +397,7 @@
           "accountType": "LAA",
           "productName": "Personal Loan",
           "currencyCode": "BDT",
-          "status": "ACTIVATED"
+         "status": "ACTIVE"
         }
       ],
       "cardsList": [
@@ -410,7 +410,7 @@
           "productName": "Amex Gold Credit Card",
           "currencyCode": "USD",
           "image": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/debit_card_bg.png",
-          "status": "GIVEN",
+           "status": "ACTIVE",
           "cardBinType": "virtual"
         }
       ]
