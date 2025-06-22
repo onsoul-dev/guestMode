@@ -392,12 +392,12 @@
       "loanAccountList": [
         {
           "customerId": "27601",
-          "accountNo": "****** 1234",
+          "accountNo": "2300000000002",
           "accountName": "MUHAMMAD ABDUL HADI",
           "accountType": "LAA",
           "productName": "Personal Loan",
           "currencyCode": "BDT",
-         "status": "ACTIVE"
+          "status": "ACTIVE"
         }
       ],
       "cardsList": [
@@ -408,10 +408,10 @@
           "cardType": "CREDIT",
           "cardId": "visaDebitNfcOLD",
           "productName": "Amex Gold Credit Card",
-          "currencyCode": "USD",
+          "currencyCode": "BDT",
           "image": "https://minio-citybank.f1soft.com.np/bankxp.public.assest/debit_card_bg.png",
-           "status": "ACTIVE",
-          "cardBinType": "virtual"
+          "status": "ACTIVE",
+          "cardBinType": "credit"
         }
       ]
     },
